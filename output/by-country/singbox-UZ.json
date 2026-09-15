@@ -5,14 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-      "server": "neth9.lunariai.ru",
-      "server_port": 8443,
-      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
-      "tls": {
-        "enabled": true,
-        "server_name": "neth9.lunariai.ru",
-        "insecure": false
+      "tag": "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe",
+      "server": "189.74.97.43",
+      "server_port": 2087,
+      "uuid": "10f7eb2d-d96d-4778-9d36-aff11e9d6629",
+      "transport": {
+        "type": "ws",
+        "path": "/73b6faea2d00"
       }
     },
     {
@@ -20,14 +19,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+        "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+        "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
