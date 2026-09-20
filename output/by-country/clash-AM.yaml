@@ -5,18 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
-  server: 151.101.56.7
-  port: 443
-  udp: true
-  type: trojan
-  password: mitivpn
-  sni: ssl.fastly.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇦🇲 亚美尼亚 (Armenia) 02 - xiaohe
-  server: 87.121.47.179
+  server: aotocon.ggisopi.su
   port: 443
   udp: true
   type: vless
@@ -33,13 +22,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 02 - xiaohe
 rules:
 - MATCH,PROXIES
