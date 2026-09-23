@@ -42,7 +42,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -63,7 +63,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -89,7 +89,7 @@
       "tag": "🇦🇺 澳大利亚 (Australia) 06 - xiaohe",
       "server": "au1.gsafevpnapi.com",
       "server_port": 20270,
-      "uuid": "8f2774ba-73fe-404d-a01b-7c01812ff75b",
+      "uuid": "3da32b09-10e5-4ef9-b422-2e476dd72d87",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
